@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.summary      = 'An Objective-C client for IM service'
   spec.homepage     = 'https://github.com/HyphenateInc/hyphenate-cocoapods'
   spec.author       = {'Hyphenate Inc.' => 'admin@easemob.com'}
-  spec.source       =  {:git => 'https://github.com/lizilong1989/hyphenate-cocoapods-1', :tag => spec.version.to_s }
+  spec.source       =  {:git => 'https://github.com/HyphenateInc/hyphenate-cocoapods.git', :tag => spec.version.to_s }
   spec.source_files = "HyphenateSDK/**/*.{h}"
   spec.platform     = :ios, '6.0'
   spec.requires_arc = true

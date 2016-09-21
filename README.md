@@ -1,4 +1,4 @@
-# Hyphenate-SDK
+# HyphenateLite
 
 
 Hyphenate iOS SDK(doesn’t support the real-time speech function)  CocoaPod repo
@@ -7,11 +7,11 @@ Start with 3.1.2, the developers could use Cocoapods to integrate Hyphenate-SDK,
 
 1. Add the following line to your podfile:
 
-		pod 'Hyphenate-SDK'
+		pod 'HyphenateLite'
 		
 2. Make sure to include our SDK libraries from your .h file:
 
-		#import <Hyphenate-SDK/EMSDK.h>
+		#import <HyphenateLite/EMSDK.h>
 		
 And next, the developers could normally use all the features of Hyphenate-SDK.
 

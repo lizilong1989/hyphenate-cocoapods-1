@@ -90,4 +90,5 @@
 - (void)getChatroomSpecificationFromServerByID:(NSString *)aChatroomId
                             includeMembersList:(BOOL)aIncludeMembersList
                                     completion:(void (^)(EMChatroom *aChatroom, EMError *aError))aCompletionBlock;
+
 @end
